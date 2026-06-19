@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/general.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <title>Contacts</title>
+</head>
+<body>
+    <header class="page__container page__header">
+        <object type="text/html" data="../components/header.html" class="frame"></object>
+    </header>
+    <main class="page__container page__main">
+        <div class="main__component">
+            <h2 class="main-header">Wanna get more Cats - contact us</h2>
+            <p class="main-common"> Tell us some more about Cats! Type a form below to contact us by email</p>
+            <form action="gallery.html" class="main-form">
+                <div class="form-action form-email">
+                    <label for="form-email">Type your email</label>
+                    <input type="email" name="" id="form-email" required placeholder="Your email">
+                </div>
+                <div class="form-action">
+                    <label for="form-number form-number">How many Cats do you have</label>
+                    <input type="number" name="" id="form-number">
+                </div>
+                <div class="form-action form-file">
+                    <label for="form-file">Attach a picture of your cat</label>
+                    <input type="file" name="" id="form-file">
+                </div>
+                <div class="form-action form-textarea">
+                    <label for="">Tell some more</label>
+                    <textarea id="form-textarea" placeholder="Your text" required></textarea>
+                </div>
+                <button type="submit" class="form-action form-submit">SUBMIT</button>
+            </form>
+        </div>
+    </main>
+    <footer class="page__container page__footer">
+        <object type="text/html" data="../components/footer.html" class="frame"></object>
+    </footer>
+</body>
+</html>
