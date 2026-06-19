@@ -6,7 +6,6 @@
 }
 .main-common {
     font-size: 20px;
-    text-align: center;
     padding:  30px 0;
 }
 
@@ -32,9 +31,17 @@
     display: flex;
     flex-wrap: wrap ;
     justify-content: center;
+    float: right;
 }
 
-.main-images a {
+.main__image {
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+    float: right;
+}
+
+.main__image a {
     flex: 0 0 calc(33.333% - 100px);
     display: flex;
     align-items: center;
@@ -45,7 +52,7 @@
     font-weight: 700;
 }
 
-.main-images img {
+.main__image img {
     width: 320px;
     height: 250px;
 }
@@ -85,4 +92,17 @@
 
 .form-submit:hover {
     cursor: pointer;
+}
+
+
+
+.element--right {
+    float: right;
+}
+.element--left {
+    float: left;
+}
+
+.element--clear {
+    clear:both;
 }
