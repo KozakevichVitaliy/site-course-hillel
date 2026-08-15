@@ -1,5 +1,3 @@
-
-
 .main-form {
     display: flex;
     flex-direction: column;
@@ -35,8 +33,4 @@
 
 .form-submit:hover {
     cursor: pointer;
-}
-
-.element--right {
-    float: right;
 }
