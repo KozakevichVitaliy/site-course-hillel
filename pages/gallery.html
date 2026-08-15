@@ -2,31 +2,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/normalize.css">
     <link rel="stylesheet" href="../styles/general.css">
-    <link rel="stylesheet" href="../styles/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Gallery</title>
 </head>
 <body>
-    <header class="page__container page__header">
-        <object type="text/html" data="../components/header.html" class="frame"></object>
+    <header class="py-0 px-[20px] h-[80px] w-[100%] bg-amber-100 fixed top-0">
+        <object type="text/html" data="../components/header.html" class="w-[100%]"></object>
     </header>
-    <main class="page__container page__main">
-        <div class="main__component">
-            <h2 class="main-header">Meme Cats</h2>
-            <p class="main-common"> Hello everyone! Here's a some fun meme Cats images - scroll horizontal to see all images!</p>
-            <div class="main__image">
-                <a href="../images/coughing-cat.jpg.webp" target="_blank" rel="noopener noreferrer"><img src="../images/coughing-cat.jpg.webp" alt="">Coughing-cat</a>
-                <a href="../images/crumppy-cat.jpeg" target="_blank" rel="noopener noreferrer"><img src="../images/crumppy-cat.jpeg" alt="">Crumppy-cat</a>
-                <a href="../images/crying-cat.jpeg" target="_blank" rel="noopener noreferrer"><img src="../images/crying-cat.jpeg" alt="">Crying-cat</a>
-                <a href="../images/huh-cat.jpeg" target="_blank" rel="noopener noreferrer"><img src="../images/huh-cat.jpeg" alt="">Huh-cat</a>
-                <a href="../images/polite-cat.jpg.webp" target="_blank" rel="noopener noreferrer"><img src="../images/polite-cat.jpg.webp" alt="">Polite-cat</a>
-                <a href="../images/smeared-cat.jpeg" target="_blank" rel="noopener noreferrer"><img src="../images/smeared-cat.jpeg" alt="">Smeared-cat</a>
-            </div>
+    <main class="px-[20px] pt-[100px] pb-[80px]">
+        <h2 class="text-center sticky top-[80px] font-bold text-2xl font-sans"">Meme Cats</h2>
+        <p class="text-center text-[20px] py-[30px] px-0"> Hello everyone! Here's a some fun meme Cats images - scroll horizontal to see all images!</p>
+        <div class="h-[300px] flex overflow-scroll mx-auto">
+            <a class="flex flex-[0_0_calc(33.333%-100px)] items-center flex-col font-['Courier New',Courier,mono] text-lg font-bold m-[5px]" href="../images/coughing-cat.jpg.webp" target="_blank" rel="noopener noreferrer"><img src="../images/coughing-cat.jpg.webp" alt="coughing-cat" class="w-[320px] h-[250px]">Coughing-cat</a>
+            <a class="flex flex-[0_0_calc(33.333%-100px)] items-center flex-col font-['Courier New',Courier,mono] text-lg font-bold m-[5px]" href="../images/crumppy-cat.jpeg" target="_blank" rel="noopener noreferrer"><img src="../images/crumppy-cat.jpeg" alt="crumppy-cat" class="w-[320px] h-[250px]">Crumppy-cat</a>
+            <a class="flex flex-[0_0_calc(33.333%-100px)] items-center flex-col font-['Courier New',Courier,mono] text-lg font-bold m-[5px]" href="../images/crying-cat.jpeg" target="_blank" rel="noopener noreferrer"><img src="../images/crying-cat.jpeg" alt="crying-cat" class="w-[320px] h-[250px]">Crying-cat</a>
+            <a class="flex flex-[0_0_calc(33.333%-100px)] items-center flex-col font-['Courier New',Courier,mono] text-lg font-bold m-[5px]" href="../images/huh-cat.jpeg" target="_blank" rel="noopener noreferrer"><img src="../images/huh-cat.jpeg" alt="huh-cat" class="w-[320px] h-[250px]">Huh-cat</a>
+            <a class="flex flex-[0_0_calc(33.333%-100px)] items-center flex-col font-['Courier New',Courier,mono] text-lg font-bold m-[5px]" href="../images/polite-cat.jpg.webp" target="_blank" rel="noopener noreferrer"><img src="../images/polite-cat.jpg.webp" alt="polite-cat" class="w-[320px] h-[250px]">Polite-cat</a>
+            <a class="flex flex-[0_0_calc(33.333%-100px)] items-center flex-col font-['Courier New',Courier,mono] text-lg font-bold m-[5px]" href="../images/smeared-cat.jpeg" target="_blank" rel="noopener noreferrer"><img src="../images/smeared-cat.jpeg" alt="smeared-cat" class="w-[320px] h-[250px]">Smeared-cat</a>
         </div>
     </main>
-    <footer class="page__container page__footer">
-        <object type="text/html" data="../components/footer.html" class="frame"></object>
+    <footer class="py-0 px-[20px] h-[80px] w-[100%] bg-amber-100 fixed bottom-0">
+        <object type="text/html" data="../components/footer.html" class="w-[100%]"></object>
     </footer>
 </body>
 </html>

@@ -2,40 +2,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/general.css">
-    <link rel="stylesheet" href="../styles/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>About</title>
 </head>
 <body>
-    <header class="page__container page__header">
-        <object type="text/html" data="../components/header.html" class="frame"></object>
+    <header class="py-0 px-[20px] h-[80px] w-[100%] bg-amber-100 fixed top-0">
+        <object type="text/html" data="../components/header.html" class="w-[100%]"></object>
     </header>
-    <main class="page__container page__main">
-        <div class="main__component" >
-            <h2 class="main-header">Who are Cats?</h2>
-            <p class="main-common">A cat (scientific name Felis catus) is a small, 
-                domesticated carnivorous mammal. 
-                It belongs to the family Felidae, which also includes wild animals like lions, tigers, and leopards. 
-                Known for their agility, flexible bodies, and sharp claws, they are often kept as pets
-            </p>
-            <ul class="main-list">
-                <span>Biological & Behavioral Traits</span>
-                <li><span>Scientific Name:</span> Felis catus.</li>
-                <li><span>Diet:</span> Obligate carnivores; they require a meat-based diet.</li>
-                <li> <span>Traits:</span> They are renowned for their agility, highly developed night vision, retractable claws, and acute hearing.</li>
-                <li><span>Classification:</span> Belong to the order Carnivora and the family Felidae.</li>
-            </ul>
-            <ul class="main-list">
-                <span>Common Classifications</span>
-                <li><span>House Cat:</span>A domesticated companion pet.</li>
-                <li><span>Feral Cat: </span>A domestic cat that has reverted to a wild state and lives without human contact.</li>
-                <li><span>Stray Cat: </span>A domestic cat that was once owned but has been lost or abandoned.</li>
-                <li><span>Big Cats: </span>Wild feline species (e.g., lions, jaguars, cheetahs).</li>
-            </ul>
-        </div>
+    <main class="px-[20px] pt-[100px] pb-[80px]">
+        <h2 class="text-center sticky top-[80px] font-bold text-2xl font-sans">Who are Cats?</h2>
+        <p class="text-center text-[20px] py-[30px] px-0">A cat (scientific name Felis catus) is a small, 
+            domesticated carnivorous mammal. 
+            It belongs to the family Felidae, which also includes wild animals like lions, tigers, and leopards. 
+            Known for their agility, flexible bodies, and sharp claws, they are often kept as pets
+        </p>
+        <ul class="py-[10px]">
+            <span class="font-bold">Biological & Behavioral Traits</span>
+            <li class="my-[10px] mx-[20px]"><span class="font-bold mr-[5px] font-['Franklin_Gothic_Medium','Arial_Narrow',Arial,sans-serif]">Scientific Name:</span> Felis catus.</li>
+            <li class="my-[10px] mx-[20px]"><span class="font-bold mr-[5px] font-['Franklin_Gothic_Medium','Arial_Narrow',Arial,sans-serif]">Diet:</span> Obligate carnivores; they require a meat-based diet.</li>
+            <li class="my-[10px] mx-[20px]"> <span class="font-bold mr-[5px] font-['Franklin_Gothic_Medium','Arial_Narrow',Arial,sans-serif]">Traits:</span> They are renowned for their agility, highly developed night vision, retractable claws, and acute hearing.</li>
+            <li class="my-[10px] mx-[20px]"><span class="font-bold mr-[5px] font-['Franklin_Gothic_Medium','Arial_Narrow',Arial,sans-serif]">Classification:</span> Belong to the order Carnivora and the family Felidae.</li>
+        </ul>
+        <ul class="py-[10px]">
+            <span class="font-bold">Common Classifications</span>
+            <li class="my-[10px] mx-[20px]"><span class="font-bold mr-[5px] font-['Franklin_Gothic_Medium','Arial_Narrow',Arial,sans-serif]">House Cat:</span>A domesticated companion pet.</li>
+            <li class="my-[10px] mx-[20px]"><span class="font-bold mr-[5px] font-['Franklin_Gothic_Medium','Arial_Narrow',Arial,sans-serif]">Feral Cat: </span>A domestic cat that has reverted to a wild state and lives without human contact.</li>
+            <li class="my-[10px] mx-[20px]"><span class="font-bold mr-[5px] font-['Franklin_Gothic_Medium','Arial_Narrow',Arial,sans-serif]">Stray Cat: </span>A domestic cat that was once owned but has been lost or abandoned.</li>
+            <li class="my-[10px] mx-[20px]"><span class="font-bold mr-[5px] font-['Franklin_Gothic_Medium','Arial_Narrow',Arial,sans-serif]">Big Cats: </span>Wild feline species (e.g., lions, jaguars, cheetahs).</li>
+        </ul>
     </main>
-    <footer class="page__container page__footer">
-        <object type="text/html" data="../components/footer.html" class="frame"></object>
+    <footer class="py-0 px-[20px] h-[80px] w-[100%] bg-amber-100 fixed bottom-0">
+        <object type="text/html" data="../components/footer.html" class="w-[100%]"></object>
     </footer>
 </body>
 </html>
