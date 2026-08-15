@@ -1,27 +1,4 @@
 
-.main__image {
-    margin: auto;
-    height: 300px;
-    display: flex;
-    overflow: scroll;
-}
-
-.main__image a {
-    flex: 0 0 calc(33.333% - 100px);
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin: 5px;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: large;
-    font-weight: 700;
-}
-
-.main__image img {
-    max-width: none;
-    width: 320px;
-    height: 250px;
-}
 
 .main-form {
     display: flex;
@@ -62,12 +39,4 @@
 
 .element--right {
     float: right;
-}
-
-.element--left {
-    float: left;
-}
-
-.element--clear {
-    clear:both;
 }
