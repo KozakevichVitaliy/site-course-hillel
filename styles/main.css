@@ -50,6 +50,7 @@
 }
 
 .main__image img {
+    max-width: none;
     width: 320px;
     height: 250px;
 }
@@ -91,11 +92,10 @@
     cursor: pointer;
 }
 
-
-
 .element--right {
     float: right;
 }
+
 .element--left {
     float: left;
 }
